@@ -13,3 +13,37 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/*Menu*/
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fec63e;
+  text-align: right;
+  z-index: 10;
+}
+.menu-nav ul li {
+  display: inline-block;
+  margin: 20px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-right: 110px;
+}
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.125em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.menu-nav ul li:hover {
+  background: #fff;
+  padding: 6px 22px;
+}
+/*Titulo*/
+.principal {
+  padding: 150px;
+  text-align: center;
+}
