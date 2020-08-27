@@ -1,0 +1,15 @@
+/*Reset*/
+body,
+h1,
+h2,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: Georgia, serif;
+  color: #252525;
+}
+* {
+  box-sizing: border-box;
+}
