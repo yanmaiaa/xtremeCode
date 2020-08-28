@@ -48,8 +48,9 @@ body {
 /*Titulo*/
 .introducao {
   width: 100%;
-  height: 300px;
+  height: 120px;
   margin-top: 96px;
+  padding: 20px;
   text-align: center;
 }
 .introducao h1 {
@@ -71,3 +72,34 @@ body {
   margin: 10px auto;
 }
 /*Portifolio*/
+
+.container {
+  max-width: 960px;
+  height: 352px;
+  margin: 0 auto;
+}
+.container::after,
+.container::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+.imagem img {
+  width: 400px;
+  height: 280px;
+  display: block;
+}
+
+/*Footer*/
+.footer {
+  width: 100%;
+  height: 80px;
+  background: #000;
+}
+.assinatura p {
+  color: #fec63e;
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+  padding: 33px;
+}
