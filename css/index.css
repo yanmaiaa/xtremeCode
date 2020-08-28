@@ -9,6 +9,7 @@ ul {
 body {
   font-family: Georgia, serif;
   color: #252525;
+  background: #fec63e;
 }
 * {
   box-sizing: border-box;
@@ -19,31 +20,54 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 80px;
   background: #fec63e;
   text-align: right;
   z-index: 10;
 }
 .menu-nav ul li {
   display: inline-block;
-  margin: 20px;
-  border: 2px solid #000;
-  border-radius: 20px;
-  padding: 5px 20px;
+  margin: 30px;
   margin-right: 110px;
 }
 .menu-nav ul li a {
   text-decoration: none;
-  color: #000;
+  color: #fec63e;
+  background: #000;
   font-size: 1.125em;
   font-weight: normal;
-  text-transform: uppercase;
+  padding: 5px 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
 }
-.menu-nav ul li:hover {
-  background: #fff;
-  padding: 6px 22px;
+.menu-nav ul li a:hover {
+  color: #000;
+  background: #fec63e;
+  font-weight: bold;
 }
 /*Titulo*/
-.principal {
-  padding: 150px;
+.introducao {
+  width: 100%;
+  height: 300px;
+  margin-top: 96px;
   text-align: center;
 }
+.introducao h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+  color: #000;
+}
+.introducao h2 {
+  font-size: 1.125em;
+  padding-top: 8px;
+  font-style: italic;
+}
+.introducao::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #000;
+  margin: 10px auto;
+}
+/*Portifolio*/
