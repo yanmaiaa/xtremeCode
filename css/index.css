@@ -73,23 +73,19 @@ body {
 }
 /*Portifolio*/
 
-.container {
-  max-width: 960px;
-  height: 352px;
-  margin: 0 auto;
+.portfolio {
+  display: flex;
+  padding: 35px;
 }
-.container::after,
-.container::before {
-  content: "";
-  display: table;
-  clear: both;
+.flex-item {
+  flex: 1;
+  text-align: center;
+  align-self: center;
 }
-.imagem img {
-  width: 400px;
-  height: 280px;
-  display: block;
+.flex-item-1 {
+  flex: 1;
+  text-align: center;
 }
-
 /*Footer*/
 .footer {
   width: 100%;
