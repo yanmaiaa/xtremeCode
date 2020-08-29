@@ -93,10 +93,7 @@ body {
   text-decoration: none;
   color: #fec63e;
 }
-.flex-item:hover {
-  border: 2px solid #000;
-  background: #fff;
-  color: #000;
+.flex-item a:hover {
   font-weight: bold;
 }
 .flex-item-img {
