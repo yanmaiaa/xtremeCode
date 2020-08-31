@@ -21,7 +21,8 @@ a {
 }
 img {
   display: block;
-  max-width: 100%;
+  width: 350px;
+  height: 250px;
 }
 * {
   box-sizing: border-box;
@@ -48,16 +49,24 @@ img {
   margin: 0 5px;
   letter-spacing: 0.1em;
 }
+.menu-logo::after {
+  content: "";
+  display: block;
+  width: 230px;
+  height: 2px;
+  background: #fec63e;
+  margin: 0 auto;
+}
 .menu-nav ul {
   display: flex;
   flex-wrap: wrap;
 }
 .menu-nav a {
-  font-size: 1.25em;
+  font-size: 1.125em;
   display: block;
   padding: 5px;
   border: 2px solid #fec63e;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .menu-nav ul li a:hover {
   color: #000;
@@ -89,70 +98,64 @@ img {
   margin: 0 auto;
   margin-top: 10px;
 }
-/*Titulo
-.introducao {
-  width: 100%;
-  height: 120px;
-  margin-top: 96px;
-  padding: 20px;
-  text-align: center;
-}
-.introducao h1 {
-  font-size: 4em;
-  text-transform: uppercase;
-  color: #000;
-}
-.introducao h2 {
-  font-size: 1.125em;
-  padding-top: 8px;
-  font-style: italic;
-}
-.introducao::after {
-  content: "";
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #000;
-  margin: 10px auto;
-}*/
-/*Portifolio
-
-.portfolio {
+/*Portifolio*/
+.menu-portfolio {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 0;
   display: flex;
-  padding: 35px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.flex-item {
+.portfolio-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-nav a {
+  font-size: 1.125em;
+  display: block;
+  padding: 7px;
   background: #000;
-  color: gray;
-  flex: 1;
-  margin: 20px;
-  padding: 8px;
-  font-size: 1em;
-  border-radius: 10px;
-  text-align: center;
-  text-decoration: none;
-  align-self: center;
-}
-.flex-item a {
   color: #fec63e;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 8px 5px;
 }
-.flex-item a:hover {
-  font-weight: bold;
+.portfolio-nav ul li a:hover {
+  color: #000;
+  background: #fec63e;
+  border: 2px solid #000;
 }
-.flex-item-img {
-  flex: 1;
-  text-align: center;
-} */
-/*Footer
+@media (max-width: 600px) {
+  .column {
+    flex-direction: column;
+  }
+}
+
+/*Footer*/
 .footer {
   width: 100%;
-  height: 80px;
+  height: 70px;
+  margin-top: 59px;
   background: #000;
 }
-.assinatura p {
-  color: #fec63e;
+.footer p {
   text-align: center;
   font-size: 1em;
-  font-style: italic;
-  padding: 33px;
-}*/
+  color: #fec63e;
+  letter-spacing: 0.1em;
+  padding-top: 30px;
+}
+.footer p::after {
+  content: "";
+  display: block;
+  width: 216px;
+  height: 3px;
+  background: #fec63e;
+  margin: 0 auto;
+  margin-top: 2px;
+}
+.footer strong {
+  color: red;
+}
