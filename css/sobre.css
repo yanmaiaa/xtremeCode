@@ -15,8 +15,8 @@ body {
   box-sizing: border-box;
 }
 img {
-  width: 290px;
-  height: 280px;
+  width: 260px;
+  height: 300px;
   border-radius: 5px;
 }
 
@@ -83,11 +83,28 @@ img {
 .introducao-sobre h1::after {
   content: "";
   display: block;
-  width: 800px;
+  width: 960px;
   height: 3px;
   background: #000;
   margin: 0 auto;
   margin-top: 10px;
+}
+/*Sobre*/
+.container {
+  max-width: 960px;
+  margin: -3px auto;
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.texto-sobre h2 {
+  color: #000;
+  font-size: 1.325em;
+}
+.texto-sobre p {
+  padding-top: 20px;
+  text-indent: 2em;
 }
 /*Footer*/
 .footer {
