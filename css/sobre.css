@@ -95,7 +95,7 @@ img {
   margin: -3px auto;
   padding-top: 70px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 .texto-sobre h2 {
@@ -103,8 +103,11 @@ img {
   font-size: 1.325em;
 }
 .texto-sobre p {
-  padding-top: 20px;
-  text-indent: 2em;
+  padding-right: 150px;
+}
+.texto-sobre strong {
+  background: #000;
+  color: #fec63e;
 }
 /*Footer*/
 .footer {
