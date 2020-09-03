@@ -42,7 +42,7 @@ img {
   text-decoration: none;
 }
 .menu-logo::after {
-  content: "";
+  content: '';
   display: block;
   width: 230px;
   height: 2px;
@@ -81,7 +81,7 @@ img {
   text-align: center;
 }
 .introducao-sobre h1::after {
-  content: "";
+  content: '';
   display: block;
   width: 960px;
   height: 3px;
@@ -124,7 +124,7 @@ img {
   padding-top: 30px;
 }
 .footer p::after {
-  content: "";
+  content: '';
   display: block;
   width: 120px;
   height: 3px;
@@ -135,4 +135,37 @@ img {
 .footer strong {
   color: #000;
   background: #fec63e;
+}
+/*Javascript*/
+.js [data-slide] > * {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+.js [data-anime] {
+  opacity: 0;
+  transform: translate3d(0, -20px, 0);
+}
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
 }

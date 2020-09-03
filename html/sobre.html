@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/sobre.css" />
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
     <title>Sobre mim</title>
   </head>
   <body>
-    <header class="menu-background">
+    <header data-anime="100" class="menu-background">
       <div class="menu-sobre">
         <div class="menu-logo">
           <h2><a href="../html/index.html">XTREMECODE</a></h2>
@@ -21,25 +24,30 @@
     </header>
 
     <main>
-      <div class="introducao-sobre"><h1>Você me conhece?</h1></div>
+      <div class="introducao-sobre">
+        <h1 data-anime="350" class="fadeInDown">Você me conhece?</h1>
+      </div>
     </main>
 
     <section>
-      <div class="container">
-        <div class="texto-sobre">
+      <div data-anime="600" class="container">
+        <div class="fadeInRight" class="texto-sobre">
           <h2>Olá! Meu nome é Yan...</h2>
           <p>Colocar texto aqui...</p>
         </div>
-        <div class="imagem-perfil">
+        <div class="fadeInLeft" data-anime="800" class="imagem-perfil">
           <img src="../img/foto_perfil.jpg" alt="Foto de Perfil" />
         </div>
       </div>
     </section>
 
-    <footer class="footer">
-      <div class="footer-text">
+    <footer data-anime="1000" class="footer">
+      <div data-anime="1300" class="footer-text">
         <p>Página feita por <strong>Yan Maia</strong>.</p>
       </div>
     </footer>
+    <script src="../javascript/simple-slide.js"></script>
+    <script src="../javascript/simple-anime.js"></script>
+    <script src="../javascript/script.js"></script>
   </body>
 </html>
