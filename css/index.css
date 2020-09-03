@@ -162,17 +162,35 @@ img {
   background: #fec63e;
 }
 /*Javascript*/
-[data-slide] {
+.js [data-slide] > * {
   position: relative;
 }
-[data-slide] > * {
+.js [data-slide] > * {
   position: absolute;
   top: 0px;
   opacity: 0;
 }
-[data-slide] > .active {
+.js [data-slide] > .active {
   position: relative;
   opacity: 1;
   transition: opacity 500ms;
   z-index: 1;
+}
+.js [data-anime] {
+  opacity: 0;
+  transform: translate3d(0, -20px, 0);
+}
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
 }

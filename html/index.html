@@ -10,7 +10,7 @@
     <title>Página Inicial</title>
   </head>
   <body>
-    <header class="menu-background">
+    <header data-anime="100" class="menu-background">
       <div class="menu">
         <div class="menu-logo">
           <h2><a href="../html/index.html">XTREMECODE</a></h2>
@@ -24,17 +24,23 @@
     </header>
 
     <main>
-      <div class="titulo"><h1>XtremeCode</h1></div>
+      <div class="titulo">
+        <h1 data-anime="350" class="fadeInDown">XtremeCode</h1>
+      </div>
     </main>
-    <section data-slide="intro">
-      <div class="subtitulo"><h2>Minha jornada pelos códigos.</h2></div>
-      <div class="subtitulo"><h2>Conheça um pouco da minha evolução.</h2></div>
+    <section data-anime="600" data-slide="intro">
+      <div class="subtitulo">
+        <h2>Minha jornada pelos códigos.</h2>
+      </div>
+      <div class="subtitulo">
+        <h2>Conheça um pouco da minha evolução.</h2>
+      </div>
     </section>
 
     <section class="container column">
       <div class="menu-portfolio">
         <nav class="portfolio-nav">
-          <ul>
+          <ul class="fadeInRight" data-anime="600">
             <li>
               <a href="../html/conversor-binary.html">Conversor Binário</a>
             </li>
@@ -43,14 +49,14 @@
             <li><a href="#">Em Construção</a></li>
           </ul>
         </nav>
-        <div class="portfolio-img">
+        <div class="fadeInLeft" data-anime="800" class="portfolio-img">
           <img src="../img/img_index.png" alt="Desenvolvedor" />
         </div>
       </div>
     </section>
 
-    <footer class="footer">
-      <div class="footer-text">
+    <footer data-anime="1000" class="footer">
+      <div data-anime="1300" class="footer-text">
         <p>Página feita por <strong>Yan Maia</strong>.</p>
       </div>
     </footer>

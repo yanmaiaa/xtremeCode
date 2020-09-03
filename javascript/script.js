@@ -1,12 +1,7 @@
 if (window.SimpleSlide) {
   new SimpleSlide({
     slide: "intro",
-    time: 3500,
-  });
-  new SimpleSlide({
-    slide: "subtitulo",
-    time: 3500,
-    nav: true,
+    time: 3000,
   });
 }
 if (window.SimpleAnime) {
