@@ -83,7 +83,7 @@ img {
 .introducao-sobre h1::after {
   content: '';
   display: block;
-  width: 960px;
+  width: 800px;
   height: 3px;
   background: #000;
   margin: 0 auto;
