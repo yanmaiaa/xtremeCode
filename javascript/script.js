@@ -1,6 +1,6 @@
 if (window.SimpleSlide) {
   new SimpleSlide({
-    slide: "intro",
+    slide: 'intro',
     time: 3000,
   });
 }
