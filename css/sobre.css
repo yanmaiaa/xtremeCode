@@ -106,6 +106,9 @@ img {
   padding-top: 20px;
   text-indent: 2em;
 }
+.imagem-perfil img {
+  border: 2px solid #000;
+}
 /*Footer*/
 .footer {
   width: 100%;
@@ -123,12 +126,13 @@ img {
 .footer p::after {
   content: "";
   display: block;
-  width: 200px;
+  width: 120px;
   height: 3px;
   background: #fec63e;
   margin: 0 auto;
   margin-top: 4px;
 }
 .footer strong {
-  color: red;
+  color: #000;
+  background: #fec63e;
 }

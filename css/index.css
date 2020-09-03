@@ -151,12 +151,28 @@ img {
 .footer p::after {
   content: "";
   display: block;
-  width: 200px;
+  width: 120px;
   height: 3px;
   background: #fec63e;
   margin: 0 auto;
   margin-top: 4px;
 }
 .footer strong {
-  color: red;
+  color: #000;
+  background: #fec63e;
+}
+/*Javascript*/
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
 }
