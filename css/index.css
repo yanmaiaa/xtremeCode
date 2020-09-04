@@ -59,10 +59,7 @@ img {
   background: #fec63e;
   margin-top: 5px;
 }
-.menu-logo b {
-  background: #fec63e;
-  color: #000;
-}
+
 .menu-nav ul {
   display: flex;
   flex-wrap: wrap;
