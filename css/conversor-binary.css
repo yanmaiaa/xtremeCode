@@ -118,6 +118,24 @@ a {
   margin: 0 auto;
   margin-top: 5px;
 }
+input::-webkit-input-placeholder {
+  color: #fec63e;
+  font: 1.2em Georgia, serif;
+}
+input:-moz-placeholder {
+  color: #fec63e;
+  font: 1.2em Georgia, serif;
+}
+input::-moz-placeholder {
+  color: #fec63e;
+  font: 1.2em Georgia, serif;
+}
+
+input:-ms-input-placeholder {  
+  color: #fec63e;
+  font: 1.2em Georgia, serif;
+}
+
 /*Footer*/
 .footer {
   width: 100%;
