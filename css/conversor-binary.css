@@ -148,7 +148,7 @@ input:-ms-input-placeholder {
   font-size: 1em;
   color: #fec63e;
   letter-spacing: 0.1em;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 .footer p::after {
   content: '';
