@@ -120,23 +120,23 @@ a {
 }
 input::-webkit-input-placeholder {
   color: #fec63e;
-  font: 1.2em Georgia, serif;
+  font: 1.125em Georgia, serif;
   font-weight: bold;
 }
 input:-moz-placeholder {
   color: #fec63e;
-  font: 1.2em Georgia, serif;
+  font: 1.125em Georgia, serif;
   font-weight: bold;
 }
 input::-moz-placeholder {
   color: #fec63e;
-  font: 1.2em Georgia, serif;
+  font: 1.125em Georgia, serif;
   font-weight: bold;
 }
 
 input:-ms-input-placeholder {
   color: #fec63e;
-  font: 1.2em Georgia, serif;
+  font: 1.125em Georgia, serif;
   font-weight: bold;
 }
 .input-1 {
@@ -144,21 +144,6 @@ input:-ms-input-placeholder {
   font-weight: bold;
   letter-spacing: 0.1em;
   padding-top: 20px;
-  margin-right: 70px;
-}
-#btn-converter {
-  background: #000;
-  color: #fec63e;
-  font-size: 1em;
-  font-weight: bold;
-  border: 2px solid #000;
-  border-radius: 5px;
-  height: 25px;
-  margin-top: 30px;
-}
-#btn-converter:hover {
-  background: #fec63e;
-  color: #000;
 }
 #inp-1 {
   background: #000;
@@ -185,7 +170,20 @@ input:-ms-input-placeholder {
   font-weight: bold;
   letter-spacing: 0.1em;
   padding-top: 20px;
-  margin-right: 70px;
+}
+#btn-converter {
+  background: #000;
+  color: #fec63e;
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 5px;
+  height: 25px;
+  margin-top: 30px;
+}
+#btn-converter:hover {
+  background: #fec63e;
+  color: #000;
 }
 /*Footer*/
 .footer {
