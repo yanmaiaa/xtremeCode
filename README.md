@@ -6,4 +6,4 @@
 <h2>Projeto 01</h2>
 <p>Conversor de números binários para decimal</p>
 
-![](.github/projeto01.gif)
+![](.github/projeto-01.gif)
