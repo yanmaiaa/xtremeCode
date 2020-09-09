@@ -122,6 +122,7 @@ img {
 }
 .portfolio-nav a {
   font-size: 1.125em;
+  text-align: center;
   display: block;
   padding: 7px;
   background: #000;
@@ -138,6 +139,11 @@ img {
   color: gray;
   border: 2px solid #000;
   border-radius: 5px;
+  margin: 8px 5px;
+}
+.btn2 {
+  height: 39px;
+  width: 151.48px;
   margin: 8px 5px;
 }
 .portfolio-nav ul li a:hover {
