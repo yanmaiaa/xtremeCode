@@ -8,5 +8,5 @@
 
 ![](.github/projeto-01.gif)
 
-<h2>Projeto 01</h2>
+<h2>Projeto 02</h2>
 <p>Construção de aplicação web com foco nas manipulações do DOM e requisições via Fetch API.</p>
