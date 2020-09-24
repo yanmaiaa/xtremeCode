@@ -22,4 +22,56 @@ body {
   background: #fec63e;
   color: #222;
   -webkit-font-smoothing: antialiased;
+  display: grid;
+  grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+}
+.menu {
+  grid-column: 3/5;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #000;
+}
+#logo {
+  font-size: 1.125rem;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  display: flex;
+}
+#logo a::after {
+  content: '';
+  display: block;
+  width: 147px;
+  height: 2px;
+  background: #fec63e;
+  margin-top: 2px;
+}
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.menu li a {
+  display: block;
+  padding: 10px;
+  margin-right: 10px;
+  color: #fec63e;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.links {
+  padding-top: 3px;
+  font-size: 0.875rem;
+}
+.grid-section {
+  grid-column: 2/4;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 90px 300px 1fr;
+  grid-gap: 20px;
+  margin-bottom: 4rem;
 }
