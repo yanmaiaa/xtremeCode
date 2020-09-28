@@ -2,14 +2,12 @@
 body,
 h1,
 h2,
-ul,
-p,
-a {
+ul {
   padding: 0px;
   margin: 0px;
 }
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, serif;
   color: #000;
   background: #fec63e;
 }
@@ -159,9 +157,11 @@ img {
 
 /*Footer*/
 .footer {
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  height: 67px;
-  margin-top: 59px;
+  height: 50px;
+  margin-top: 36px;
   background: #000;
 }
 .footer p {
@@ -169,7 +169,6 @@ img {
   font-size: 1em;
   color: #fec63e;
   letter-spacing: 0.1em;
-  padding-top: 25px;
 }
 .footer p::after {
   content: '';
