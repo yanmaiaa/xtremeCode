@@ -24,20 +24,40 @@ initTabNav();
 
 function initAccordion() {
   const accordionList = document.querySelectorAll('.js-accordion dt');
-  const activeCLass = 'ativo';
+  const activeClass = 'ativo';
 
   if (accordionList.length) {
-    accordionList[0].classList.add(activeCLass);
-    accordionList[0].nextElementSibling.classList.add(activeCLass);
+    accordionList[0].classList.add(activeClass);
+    accordionList[0].nextElementSibling.classList.add(activeClass);
 
-    const activeAccordion = () => {
-      this.classList.toggle(activeCLass);
-      this.nextElementSibling.classList.toggle(activeCLass);
-    };
+    function activeAccordion() {
+      this.classList.toggle(activeClass);
+      this.nextElementSibling.classList.toggle(activeClass);
+    }
 
     accordionList.forEach((item) => {
       item.addEventListener('click', activeAccordion);
     });
   }
 }
+
 initAccordion();
+
+function initScrollSoft() {
+  const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
+  const scrollToSection = (event) => {
+    event.preventDefault();
+    const href = event.currentTarget.getAttribute('href');
+    const section = document.querySelector(href);
+
+    section.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  }; //relação entre o id e  href para que possamos fazer o scroll suave
+  linksInternos.forEach((link) => {
+    link.addEventListener('click', scrollToSection);
+  });
+}
+
+initScrollSoft();
