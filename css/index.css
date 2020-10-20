@@ -17,11 +17,6 @@ ul {
 a {
   text-decoration: none;
 }
-img {
-  display: block;
-  width: 350px;
-  height: 250px;
-}
 * {
   box-sizing: border-box;
 }
@@ -114,27 +109,18 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.portfolio-nav ul {
-  display: flex;
-  flex-wrap: wrap;
+.portfolio-nav ul li {
+  display: block;
+  float: left;
 }
 .portfolio-nav a {
   font-size: 1.125em;
   text-align: center;
   display: block;
+  width: 170px;
   padding: 7px;
   background: #000;
   color: #fec63e;
-  border: 2px solid #000;
-  border-radius: 5px;
-  margin: 8px 5px;
-}
-.btn {
-  font-size: 1.125em;
-  display: block;
-  padding: 7px;
-  background: #000;
-  color: gray;
   border: 2px solid #000;
   border-radius: 5px;
   margin: 8px 5px;
@@ -149,10 +135,8 @@ img {
   background: #fec63e;
   border: 2px solid #000;
 }
-@media (max-width: 600px) {
-  .column {
-    flex-direction: column;
-  }
+.portfolio-img{
+  width: 350px;
 }
 
 /*Footer*/
