@@ -61,3 +61,31 @@ function initScrollSoft() {
 }
 
 initScrollSoft();
+
+function initAnimeScroll(){
+const sections = document.querySelectorAll('.js-scroll');
+
+if(sections.length)
+{const windowAnime = window.innerHeight * 0.6;
+
+function animaScroll(){
+
+  //Precisamos saber a distância que cada elemento está do topo
+  sections.forEach((section) => {
+    const sectionTop = section.getBoundingClientRect().top;
+    const isSectionVisible = (sectionTop - windowAnime) < 0
+    if (isSectionVisible) 
+      section.classList.add('ativo');
+
+      else
+      section.classList.remove('ativo');
+    
+  } )
+}
+
+animaScroll();
+//O evento de scroll é adicionado no objeto window, pois o scroll a ser dado é no window em geral.
+window.addEventListener('scroll', animaScroll)
+}
+}
+initAnimeScroll();
