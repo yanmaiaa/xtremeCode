@@ -44,9 +44,9 @@ a {
   text-decoration: none;
 }
 .menu-logo::after {
-  content: '';
+  content: "";
   display: block;
-  width: 230px;
+  width: 247px;
   height: 2px;
   background: #fec63e;
   margin-top: 5px;
@@ -89,7 +89,7 @@ a {
   color: #fec63e;
 }
 .titulo::after {
-  content: '';
+  content: "";
   display: block;
   width: 500px;
   height: 3px;
@@ -110,7 +110,7 @@ a {
   border-radius: 10px;
 }
 .conversor h2::after {
-  content: '';
+  content: "";
   display: block;
   width: 490px;
   height: 2px;
@@ -201,7 +201,7 @@ input:-ms-input-placeholder {
   letter-spacing: 0.1em;
 }
 .footer p::after {
-  content: '';
+  content: "";
   display: block;
   width: 120px;
   height: 3px;

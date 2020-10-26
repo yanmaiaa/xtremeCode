@@ -46,7 +46,7 @@ a {
 .menu-logo::after {
   content: "";
   display: block;
-  width: 230px;
+  width: 247px;
   height: 2px;
   background: #fec63e;
   margin-top: 5px;

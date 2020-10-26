@@ -38,9 +38,9 @@ body {
   display: flex;
 }
 #logo a::after {
-  content: '';
+  content: "";
   display: block;
-  width: 147px;
+  width: 153px;
   height: 2px;
   background: #fec63e;
   margin-top: 2px;
@@ -93,7 +93,7 @@ body {
   color: rgb(250, 25, 0);
 }
 .animais h2::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 40px;
   height: 10px;
@@ -142,7 +142,7 @@ body {
   color: rgb(250, 25, 0);
 }
 .faq-lista dt::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 20px;
   height: 10px;
@@ -165,7 +165,7 @@ body {
   font-family: Georgia, serif;
 }
 .dados li::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 20px;
   height: 10px;
@@ -227,11 +227,11 @@ body {
   display: none;
 }
 .js-accordion dt::after {
-  content: '⌄';
+  content: "⌄";
   margin-left: 10px;
 }
 .js-accordion dt.ativo::after {
-  content: '⌃';
+  content: "⌃";
 }
 .js-accordion dd.ativo {
   display: block;
@@ -260,12 +260,12 @@ body {
     opacity: 1;
   }
 }
-.js .js-scroll{
+.js .js-scroll {
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
   transition: 0.3s;
 }
-.js .js-scroll.ativo{
+.js .js-scroll.ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   transition: 0.3s;
