@@ -53,7 +53,7 @@ a {
   margin-top: 5px;
 }
 
-.menu-nav ul {
+.menu-navig ul {
   display: flex;
   flex-wrap: wrap;
 }
@@ -61,14 +61,22 @@ a {
   font-size: 1.125em;
   display: block;
   padding: 5px;
+  margin-right: 10px;
   border: 2px solid #fec63e;
   border-radius: 5px;
 }
-.menu-nav ul li a:hover {
+.menu-nav a:hover {
   color: #000;
   background: #fec63e;
 }
-
+.sobre-git img,
+.sobre-linkedin img,
+.sobre-insta img {
+  border-radius: 10px;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
 /*Introdução*/
 .titulo {
   font-size: 2.225em;
