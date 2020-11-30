@@ -173,6 +173,17 @@ strong {
   left: -48.8px;
   top: 0.1px;
 }
+/*Desafio 02*/
+.titulo02 {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 25px;
+}
+.border-shape {
+  background: #c10101;
+  margin: auto;
+  height: 500px;
+}
 /*Footer*/
 .footer {
   position: fixed;
